@@ -10,4 +10,7 @@ export const theme = {
     greyLight: "#F4F4F4",
     lavander: "#F4F0F8",
   },
+  fonts: {
+    primary: "Sen",
+  },
 };

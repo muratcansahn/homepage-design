@@ -1,8 +1,13 @@
 import "./App.css";
-import { Navbar } from "./components";
+import { HeroSection, Navbar } from "./components";
 
 function App() {
-  return <Navbar />;
+  return (
+    <>
+      <Navbar />
+      <HeroSection />
+    </>
+  );
 }
 
 export default App;

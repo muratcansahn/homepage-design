@@ -4,9 +4,7 @@ export const Nav = styled.nav`
   height: 80px;
   background-color: ${(props) => props.theme.colors.black};
 `;
-export const Container = styled.div`
-  margin-left: 80px;
-  margin-right: 80px;
+export const ContainerStyles = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
