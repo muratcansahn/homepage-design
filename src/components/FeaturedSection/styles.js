@@ -1,7 +1,7 @@
 import styled from "styled-components";
 export const FeaturedStyles = styled.section`
   display: flex;
-  height: 804px;
+  height: auto;
   margin-top: 128px;
   padding: 0 80px;
   flex-wrap: wrap;

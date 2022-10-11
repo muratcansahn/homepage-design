@@ -19,7 +19,6 @@ import FeaturedImage from "../../assets/featured-image.jpeg";
 import { PostCardItems } from "../../utils";
 const FeaturedSection = () => {
   const [isActive, setIsActive] = useState(2);
-  console.log(isActive);
   return (
     <FeaturedStyles>
       <Featured>
@@ -39,7 +38,7 @@ const FeaturedSection = () => {
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
             cupidatat non proident.
           </FeaturedPostSubText>
-          <Button bg="yellow">Read More&nbsp;></Button>
+          <Button bg="yellow">Read More&nbsp;</Button>
         </FeaturedPostCard>
       </Featured>
       <AllPost>
