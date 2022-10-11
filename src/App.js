@@ -1,11 +1,12 @@
 import "./App.css";
-import { HeroSection, Navbar } from "./components";
+import { HeroSection, Navbar, FeaturedSection } from "./components";
 
 function App() {
   return (
     <>
       <Navbar />
       <HeroSection />
+      <FeaturedSection />
     </>
   );
 }

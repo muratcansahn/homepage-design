@@ -5,6 +5,8 @@ export const ButtonStyles = styled.button`
   padding-right: 48px;
   font-weight: 700;
   font-size: 18px;
-  background-color: ${(p) => p.bg || "white"};
+  background-color: ${(p) =>
+    (p.bg === "yellow" && p.theme.colors.yellow) || "white"};
   border-radius: 2px;
+  border: none;
 `;

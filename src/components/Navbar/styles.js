@@ -9,6 +9,7 @@ export const ContainerStyles = styled.div`
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  padding: 0 80px;
 `;
 export const Logo = styled.img``;
 export const NavbarMenu = styled.ul`
