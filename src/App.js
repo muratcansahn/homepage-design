@@ -5,6 +5,7 @@ import {
   FeaturedSection,
   AboutUs,
   ChooseCategory,
+  WhyWeStarted,
 } from "./components";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <FeaturedSection />
       <AboutUs />
       <ChooseCategory />
+      <WhyWeStarted />
     </>
   );
 }

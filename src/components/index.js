@@ -7,6 +7,7 @@ import PostCard from "./PostCard/PostCard";
 import AboutUs from "./AboutUs/AboutUs";
 import ChooseCategory from "./ChooseCategory/ChooseCategory";
 import ChooseCategoryCard from "./ChooseCategoryCard/ChooseCategoryCard";
+import WhyWeStarted from "./WhyWeStarted/WhyWeStarted";
 export {
   Navbar,
   Button,
@@ -17,4 +18,5 @@ export {
   AboutUs,
   ChooseCategory,
   ChooseCategoryCard,
+  WhyWeStarted,
 };
