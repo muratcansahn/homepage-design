@@ -1,5 +1,11 @@
 import "./App.css";
-import { HeroSection, Navbar, FeaturedSection, AboutUs } from "./components";
+import {
+  HeroSection,
+  Navbar,
+  FeaturedSection,
+  AboutUs,
+  ChooseCategory,
+} from "./components";
 
 function App() {
   return (
@@ -8,6 +14,7 @@ function App() {
       <HeroSection />
       <FeaturedSection />
       <AboutUs />
+      <ChooseCategory />
     </>
   );
 }

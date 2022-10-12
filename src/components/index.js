@@ -5,6 +5,8 @@ import Container from "./Container/Container";
 import FeaturedSection from "./FeaturedSection/FeaturedSection";
 import PostCard from "./PostCard/PostCard";
 import AboutUs from "./AboutUs/AboutUs";
+import ChooseCategory from "./ChooseCategory/ChooseCategory";
+import ChooseCategoryCard from "./ChooseCategoryCard/ChooseCategoryCard";
 export {
   Navbar,
   Button,
@@ -13,4 +15,6 @@ export {
   FeaturedSection,
   PostCard,
   AboutUs,
+  ChooseCategory,
+  ChooseCategoryCard,
 };
