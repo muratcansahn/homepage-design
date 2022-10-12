@@ -8,6 +8,8 @@ import AboutUs from "./AboutUs/AboutUs";
 import ChooseCategory from "./ChooseCategory/ChooseCategory";
 import ChooseCategoryCard from "./ChooseCategoryCard/ChooseCategoryCard";
 import WhyWeStarted from "./WhyWeStarted/WhyWeStarted";
+import ListofAuthors from "./ListofAuthors/ListofAuthors";
+import AuthorCard from "./AuthorCard/AuthorCard";
 export {
   Navbar,
   Button,
@@ -19,4 +21,6 @@ export {
   ChooseCategory,
   ChooseCategoryCard,
   WhyWeStarted,
+  ListofAuthors,
+  AuthorCard,
 };

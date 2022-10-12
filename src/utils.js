@@ -2,6 +2,11 @@ import BusinessIcon from "./assets/icons/business.png";
 import StartupIcon from "./assets/icons/startup.png";
 import EconomyIcon from "./assets/icons/economy.png";
 import TechnologyIcon from "./assets/icons/technology.png";
+import FloydMiles from "./assets/author-images/1.png";
+import DianneRussell from "./assets/author-images/2.png";
+import JennyWilson from "./assets/author-images/3.png";
+import LeslieAlexander from "./assets/author-images/4.png";
+
 export const PostCardItems = [
   {
     id: 1,
@@ -53,5 +58,29 @@ export const CategoryCards = [
     title: "Technology",
     description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
     icon: TechnologyIcon,
+  },
+];
+export const AuthorsList = [
+  {
+    id: 1,
+    name: "Floyd Miles",
+    img: FloydMiles,
+  },
+  {
+    id: 2,
+    name: "Dianne Russell",
+    img: DianneRussell,
+    isActive: true,
+  },
+  {
+    id: 3,
+    name: "Jenny Wilson",
+    img: JennyWilson,
+  },
+
+  {
+    id: 4,
+    name: "Leslie Alexander",
+    img: LeslieAlexander,
   },
 ];

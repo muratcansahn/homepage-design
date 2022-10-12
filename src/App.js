@@ -6,6 +6,7 @@ import {
   AboutUs,
   ChooseCategory,
   WhyWeStarted,
+  ListofAuthors,
 } from "./components";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <AboutUs />
       <ChooseCategory />
       <WhyWeStarted />
+      <ListofAuthors />
     </>
   );
 }
