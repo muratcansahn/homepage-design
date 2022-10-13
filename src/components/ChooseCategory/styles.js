@@ -1,8 +1,15 @@
 import styled from "styled-components";
+import { sizes } from "../../theme";
 
 export const Wrapper = styled.div`
   padding: 0 80px;
   margin-top: 128px;
+  @media only screen and (max-width: ${sizes.tablet}) {
+    padding: 0 40px;
+  }
+  @media only screen and (max-width: ${sizes.mobile}) {
+    padding: 0 20px;
+  }
 `;
 export const ChooseCategoryTitle = styled.h5`
   font-family: ${({ theme }) => theme.fonts.primary};
@@ -14,6 +21,9 @@ export const ChooseCategoryTitle = styled.h5`
   width: fit-content;
 `;
 export const ChooseCategoryCardWrapper = styled.div`
-  margin-top: 48px;
   display: flex;
+  flex-wrap: wrap;
+  @media only screen and (max-width: ${sizes.laptop}) {
+    justify-content: space-around;
+  }
 `;

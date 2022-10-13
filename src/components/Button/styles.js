@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { sizes } from "../../theme";
 export const ButtonStyles = styled.button`
   height: 48px;
   padding-left: 48px;
@@ -9,4 +10,10 @@ export const ButtonStyles = styled.button`
     (p.bg === "yellow" && p.theme.colors.yellow) || "white"};
   border-radius: 2px;
   border: none;
+  @media only screen and (max-width: ${sizes.mobile}) {
+    height: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 16px;
+  }
 `;

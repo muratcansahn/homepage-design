@@ -27,7 +27,7 @@ const HeroSection = () => {
           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
           proident.
         </Subtext>
-        <ReadMoreButton>Read More ></ReadMoreButton>
+        <ReadMoreButton>Read More </ReadMoreButton>
       </HeroContainer>
     </HeroSectionStyles>
   );

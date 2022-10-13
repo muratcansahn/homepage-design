@@ -14,10 +14,13 @@ function App() {
     <>
       <Navbar />
       <HeroSection />
+
       <FeaturedSection />
       <AboutUs />
       <ChooseCategory />
+
       <WhyWeStarted />
+
       <ListofAuthors />
     </>
   );
