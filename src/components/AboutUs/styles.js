@@ -102,6 +102,7 @@ export const AboutUsReadMore = styled.p`
   font-weight: 700;
   color: ${({ theme }) => theme.colors.purple};
   margin-top: 16px;
+  cursor: pointer;
 `;
 export const OurMissionTitle = styled.h3`
   font-family: ${({ theme }) => theme.fonts.primary};

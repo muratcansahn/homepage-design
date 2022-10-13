@@ -52,7 +52,7 @@ export const HeroTopTextContainer = styled.div`
 export const HeroTitle = styled.h1`
   font-family: ${({ theme }) => theme.fonts.primary};
   font-size: 56px;
-  line-height: 66px;
+  line-height: 67px;
   color: white;
   width: 800px;
   margin-top: 24px;

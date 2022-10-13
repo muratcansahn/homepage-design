@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { sizes } from "../../theme";
 export const ButtonStyles = styled.button`
+  cursor: pointer;
   height: 48px;
   padding-left: 48px;
   padding-right: 48px;

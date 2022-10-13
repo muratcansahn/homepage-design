@@ -10,7 +10,7 @@ export const PostCardStyles = styled.div`
     padding: 16px;
   }
 `;
-export const PostCardInfo = styled.p`
+export const PostCardInfo = styled.div`
   display: flex;
   font-weight: 500;
   color: ${(props) => props.theme.colors.greyDark};

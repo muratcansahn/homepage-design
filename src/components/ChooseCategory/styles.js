@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
     padding: 0 40px;
   }
   @media only screen and (max-width: ${sizes.mobile}) {
-    padding: 0 20px;
+    padding: 0 0px;
   }
 `;
 export const ChooseCategoryTitle = styled.h5`
@@ -23,7 +23,8 @@ export const ChooseCategoryTitle = styled.h5`
 export const ChooseCategoryCardWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
-  @media only screen and (max-width: ${sizes.laptop}) {
-    justify-content: space-around;
+  justify-content: space-between;
+  @media only screen and (max-width: ${sizes.tablet}) {
+    justify-content: center;
   }
 `;

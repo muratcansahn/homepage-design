@@ -1,13 +1,12 @@
 import styled from "styled-components";
 import { sizes } from "../../theme";
 export const CardWrapper = styled.div`
+  cursor: pointer;
   width: 23.4%;
   border: 1px solid #e5e5e5;
   padding: 32px;
   margin-top: 48px;
-  :not(:last-child) {
-    margin-right: 32px;
-  }
+
   background-color: ${(p) => p.isActive && p.theme.colors.yellow};
   @media only screen and (max-width: ${sizes.laptop}) {
     width: 45%;

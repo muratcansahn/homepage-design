@@ -112,4 +112,5 @@ export const ViewAll = styled.p`
   font-size: 18px;
   font-weight: 500;
   margin-top: 9px;
+  width: 75px;
 `;
