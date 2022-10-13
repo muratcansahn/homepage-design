@@ -10,6 +10,7 @@ import ChooseCategoryCard from "./ChooseCategoryCard/ChooseCategoryCard";
 import WhyWeStarted from "./WhyWeStarted/WhyWeStarted";
 import ListofAuthors from "./ListofAuthors/ListofAuthors";
 import AuthorCard from "./AuthorCard/AuthorCard";
+import HamburgerMenu from "./HamburgerMenu/HamburgerMenu";
 export {
   Navbar,
   Button,
@@ -23,4 +24,5 @@ export {
   WhyWeStarted,
   ListofAuthors,
   AuthorCard,
+  HamburgerMenu,
 };
