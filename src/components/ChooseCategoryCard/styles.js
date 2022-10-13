@@ -17,6 +17,10 @@ export const CardWrapper = styled.div`
   @media only screen and (max-width: ${sizes.tablet}) {
     width: 70%;
   }
+  :hover {
+    background-color: ${(p) => !p.isActive && p.theme.colors.yellowLight};
+    cursor: pointer;
+  }
 `;
 export const Icon = styled.img``;
 export const Title = styled.h5`

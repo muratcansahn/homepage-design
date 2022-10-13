@@ -7,12 +7,7 @@ const ListofAuthors = () => {
       <Title>List of Authors</Title>
       <AuthorListContainer>
         {AuthorsList.map((author) => (
-          <AuthorCard
-            key={author.id}
-            name={author.name}
-            img={author.img}
-            isActive={author.isActive}
-          />
+          <AuthorCard key={author.id} name={author.name} img={author.img} />
         ))}
       </AuthorListContainer>
     </Wrapper>

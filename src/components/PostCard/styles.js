@@ -9,6 +9,9 @@ export const PostCardStyles = styled.div`
     width: 100%;
     padding: 16px;
   }
+  :hover {
+    border-right: 3px solid ${(p) => !p.isActive && p.theme.colors.yellow};
+  }
 `;
 export const PostCardInfo = styled.div`
   display: flex;

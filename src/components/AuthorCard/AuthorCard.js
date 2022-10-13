@@ -13,7 +13,7 @@ import instagram from "../../assets/icons/instagram.png";
 
 const AuthorCard = ({ name, img, isActive }) => {
   return (
-    <AuthorCardWrapper isActive={isActive}>
+    <AuthorCardWrapper>
       <AuthorImage src={img} />
       <AuthorName>{name}</AuthorName>
       <AuthorDescription>Content Writer @Company </AuthorDescription>

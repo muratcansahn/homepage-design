@@ -11,6 +11,10 @@ export const AuthorCardWrapper = styled.div`
     margin-right: 32px;
   }
   height: 324px;
+  :hover {
+    background-color: ${(p) => p.theme.colors.yellowLight};
+  }
+  cursor: pointer;
 `;
 export const AuthorImage = styled.img``;
 export const AuthorName = styled.h5`
