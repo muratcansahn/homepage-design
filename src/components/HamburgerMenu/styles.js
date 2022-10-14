@@ -2,9 +2,11 @@ import styled from "styled-components";
 import { sizes } from "../../theme";
 export const Wrapper = styled.div`
   cursor: pointer;
-  margin-top: 30px;
   height: 40px;
   width: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   @media only screen and (min-width: ${sizes.laptop}) {
     display: none;
   }
